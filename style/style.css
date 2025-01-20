@@ -143,13 +143,13 @@ main h2 {
 
 iframe {
   padding: 10px 0px 10px 0px;
-  width: 100%;
 }
 
 .iframe {
   max-width: 600px;
   display: block;
   margin: auto;
+  width: 100%;
 }
 
 #bugdroid {
