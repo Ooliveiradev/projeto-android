@@ -52,14 +52,15 @@ header div h4 {
 }
 
 nav {
-  max-width: 700px;
-  min-width: 320px;
   background-color: var(--cor3);
   border-radius: 10px;
-  margin: 20px auto;
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   padding: 1px 10px 1px 10px;
+  margin: 20px auto;
+  overflow: hidden;
+  max-width: 700px;
+  min-width: 320px;
 }
 
 .menu ol {
