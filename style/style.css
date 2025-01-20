@@ -63,18 +63,6 @@ nav {
   overflow: hidden;
 }
 
-@media (max-width: 768px) { 
-  .menu ol {
-    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
-    justify-content: center; /* Center the items horizontally */
-  }
-
-  .menu ol li {
-    display: block; /* Make each item a block element to occupy the full width of its container */
-    margin: 5px; /* Add some margin between items for better spacing */
-  }
-}
-
 .menu ol {
   justify-content: center;
   gap: 10px;
@@ -114,7 +102,7 @@ h2 {
   text-decoration: none;
   color: var(--cor1);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .menu li a:hover {
